@@ -2,65 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>The HTML5 Herald</title>
+  <title>Brocoin — the bro way to pay.</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/styles.css?v=1.0">
   <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <style type='text/css'>
-  <!--
-    body {
-      margin: 0px;
-      padding: 0px;
-
-      background-color: #000;
-    }
-    section {
-      margin-top: 12%;
-    }
-    #blackout,#anibg {
-      top: 0;
-      left: 0;
-      display: block;
-      position: fixed;
-      height: 100%;
-      width: 100%;
-    }
-    #blackout {
-      background-color: rgba(0,0,0,0.8);
-    }
-    #anibg {
-      background-image: url(images/polytronic.gif);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-    }
-    .container {
-    }
-    #coin {
-      margin-left: auto;
-      margin-right: auto;
-      width: 352px;
-      height: 352px;
-      -webkit-animation: rotation 10s infinite linear;
-    }
-    @-webkit-keyframes rotation {
-        from {-webkit-transform: rotateY(0deg);}
-        to   {-webkit-transform: rotateY(359deg);}
-    }
-  -->
-  </style>
 </head>
 <body>
-  <div id='anibg'></div>
+  <div id='anibg' style='background-image: url(images/polytronic.gif);'></div>
   <div id='blackout'></div>
   <section class="container">
     <div id="coin">
       <img src='http://brocoin.s3.amazonaws.com/brocoin352x352.png' />
     </div>
   </section>
-  <!-- <script src="js/scripts.js"></script> -->
+  <footer class='major'>
+    <ul class='fa-ul'>
+      <!-- <li><a href=''><i class='fa fa-li fa-cloud-download'></i> Download Wallet</a> <span>OS X, Windows, and Linux</span></li>
+      <li><a href='https://twitter.com/brocoin'><i class='fa fa-li fa-twitter'></i> News</a> <span>@brocoin on Twitter</span></li>
+      <li><a href='https://github.com/brocoin'><i class='fa fa-li fa-github'></i> Source Code</a> <span>brocoin on GitHub</span></li> -->
+    </ul>
+  </footer>
+  <footer class='minor'>
+    <ul>
+      <li><i class='fa fa-music'></i> <a href='https://soundcloud.com/djsnake-king/dj-snake-lil-jon-turn-down-for'>DJ Snake & Lil Jon - Turn Down for What</a></li>
+      <li><i class='fa fa-camera'></i> <a href='http://cargocollective.com/matthewdivito/Animated-Gifs-04'>Matthew DiVito</a></li>
+    </ul>
+  </footer>
+  <script src="javascripts/scripts.js"></script>
 </body>
 </html>
