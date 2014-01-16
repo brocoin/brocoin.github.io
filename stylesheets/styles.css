@@ -8,6 +8,18 @@ body {
       -webkit-font-smoothing: antialiased;
       color: #fff;
     }
+
+a:link, a:active, a:visited {
+  color: #edc300;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: square;
+  color: #444;
+}
+
+
     section {
     }
     #blackout,#anibg {
@@ -31,7 +43,7 @@ body {
     .container {
       text-align: center;
     }
-    h1 b {
+    h1 b, h2 b, h3 b, h4 b {
       color: #fff;
     }
     h1,h2,h3,h4 {
